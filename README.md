@@ -82,7 +82,6 @@ CS 지식을 공부하고 자신의 cs 노트를 만들어봅니다.
   - DML, DDL, DCL
   - Key
 - Join
-- Sharding&Master/Slave
 - 이상 현상과 정규화
 - 트랜잭션
   - 트랜잭션 개념
