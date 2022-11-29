@@ -101,21 +101,81 @@ CS 지식을 공부하고 자신의 cs 노트를 만들어봅니다.
 - OSI 7 계층
 - TCP 3-way-handshake & 4-way-handshake
 - TCP 와 UDP
-- HTTP 요청 방식 - GET, POST
-- HTTP 와 HTTPS
-- DNS round robin 방식
+- HTTP 
+  - 요청 방식 - GET, POST
+  - HTTP 와 HTTPS
+  - HTTP 1.1 VS HTTP 2.0
+- CORS
+- COOKIE & SESSION
+- REST API
+- DNS - round robin 방식
 - 웹 통신의 큰 흐름
+- IPv4 VS IPv6
+- 로드밸런서
+- Blocking/Nonblocking&Synchronous/Asynchronous
+
 
 # 운영체제
-- 프로세스와 스레드
-- 멀티 프로세스와 멀티 스레드
-- 프로세스 스케줄링
+- 운영체제 소개
+  - 운영체제 필요성
+  - 운영체제 정의
+  - 운영체제 역할
+- 운영체제 구조
+  - 커널
+  - 시스템 호출
+- 프로세스
+  - 프로세스 개념
+  - 프로세스 상태
+  - 프로세스 제어 블록
+  - 프로세스 문맥 교환
+- 스레드
+  - 스레드 개념
+  - 멀티스레드의 구조
+  - 멀티스레드의 장단점
+  - 멀티 프로세스 VS 멀티 스레드
 - CPU 스케줄링
-- 동기와 비동기의 차이
+  - 장기 스케줄링
+  - 중기 스케줄링
+  - 단기 스케줄링
+- 스케줄링 알고리즘
+  - FCFS
+  - SJF
+  - Round Robin
+  - SRT
+  - Priority scheduling
+  - Multilevel Queue
+  - Multilevel Feedback Queue
+- 인터럽트
+  - 인터럽트 개념
+  - 동기적 인터럽트, 비동기적 인터럽트
+  - 인터럽트 처리 과정
+  - 인터럽트와 이중 모드
 - 프로세스 동기화
-- 메모리 관리 전략
-- 가상 메모리
-- 캐시
+  - 공유자원, 경쟁상태, 임계구역
+  - 피터슨 알고리즘
+  - 뮤텍스
+  - 세마포어
+  - 모니터
+- 교착 상태(Deadlock)
+  - 교착 상태 정의
+  - 교착 상태 조건
+  - 교착 상태 해결 방법
+  - 식사하는 철학자 문제
+- 메모리 관리
+  - 메모리 관리 필요성
+  - 고정 분할 방식
+  - 가변 분할 방식
+- 가상 메모리 개요
+  - 가상 메모리 정의
+  - 가상 메모리 필요성
+  - 페이징 기법
+  - 세그먼테이션 기법
+- 가상 메모리 관리
+  - 요구 페이징
+  - 페이지 교체 알고리즘
+    - FIFO
+    - OPT
+    - LRU
 
 ## 일정
 
