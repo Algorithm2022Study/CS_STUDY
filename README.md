@@ -3,7 +3,7 @@
 ---
 CS 지식을 공부하고 자신의 cs 노트를 만들어봅니다.
 발표를 통해 질의응답 방식에 익숙해지는 연습을 합니다.
-12월 인턴을 목표로 공부합니다
+상반기 취업을,,,
 
 
 ## 스터디 일정
@@ -66,31 +66,94 @@ CS 지식을 공부하고 자신의 cs 노트를 만들어봅니다.
   - 정렬 알고리즘
     - 선택 정렬, 거품 정렬, 삽입 정렬
     - 병합 정렬, 퀵 정렬, 힙 정렬
-  - 그래프
-  - 최단 경로 알고리즘
-  - Union Find & Kruskal
+  - Union Find
   - 두 포인터 (two-pointer)
-  - 문자열 처리 알고리즘
-  - KMP 알고리즘
+  - KMP 알고리즘(문자열 처리 알고리즘)
   - 이분 탐색
-  - 최단 경로
-  - 최소 비용(MST)
+  - 최단 경로(다익스트라)
+  - 최소 비용(MST)(크루스칼, 프림)
 
 
 # 데이터베이스
 
+- 관계형 데이터베이스
+  - 데이터베이스를 사용하는 이유
+  - 관계형 데이터베이스의 개념과 장단점
+  - DML, DDL, DCL
+  - Key
+- Join
+- 이상 현상과 정규화
+- 트랜잭션
+  - 트랜잭션 개념
+  - ACID
+  - LOCK
+- 트랜잭션 격리수준
+- 교착상태
+- 인덱스
+  - 인덱스 개념
+  - Clustered index, Non-Clustered index
+  - 인덱스 자료구조
+- NoSQL
+  - NoSQL의 개념
+  - RDB VS NoSQL
+  - Redis
 # 네트워크
+- OSI 7 계층
+- TCP 3-way-handshake & 4-way-handshake
+- TCP 와 UDP
+- HTTP 
+  - 요청 방식 - GET, POST
+  - HTTP 와 HTTPS
+  - HTTP 1.1 VS HTTP 2.0
+- CORS
+- COOKIE & SESSION
+- REST API
+- DNS - round robin 방식
+- 웹 통신의 큰 흐름
+- IPv4 VS IPv6
+- 로드밸런서
+- Blocking/Nonblocking&Synchronous/Asynchronous
+
 
 # 운영체제
-
-
+- 프로세스와 스레드의 차이
+- 스케줄러의 종류
+  - 장기 스케줄러
+  - 단기 스케줄러
+  - 중기 스케줄러
+- CPU 스케줄러
+  - FCFS
+  - SJF
+  - SRT
+  - Priority scheduling
+  - RR
+- 동기와 비동기의 차이
+- 멀티스레드
+  - 장점과 단점
+- 프로세스 동기화
+  - Critical Section
+  - 해결책
+- 메모리 관리 전략
+  - 메모리 관리 배경
+  - Paging
+  - Segmentation
+- 가상 메모리
+  - 배경
+  - 가상 메모리가 하는 일
+  - Demand Paging (요구 페이징)
+  - 페이지 교체 알고리즘
+- 캐시의 지역성
+  - Locality
+  - Caching line
 ## 일정
 
 |날짜|내용|
 |------|---|
 |10월 4일|자료구조 - 선형|
 |10월 6일|자료구조 - 비선형(1)|
-|테스트1|테스트2|
+|10월 11일|비선형(2) / 알고리즘 (~백트래킹)|
+|10월 13일|알고리즘 (~삽입정렬)|
+|10월 25일|알고리즘 (~KMP 알고리즘)|
 
 
 ## 참고할 문서들
